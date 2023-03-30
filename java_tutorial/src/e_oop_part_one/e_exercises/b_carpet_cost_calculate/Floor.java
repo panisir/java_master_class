@@ -1,0 +1,15 @@
+package e_oop_part_one.e_exercises.b_carpet_cost_calculate;
+
+public class Floor {
+    private double width;
+    private double length;
+
+    public Floor(double width, double length){
+        this.width = width < 0 ? 0: width;
+        this.length = length < 0 ? 0 : length;
+    }
+
+    public double getArea(){
+        return this.width * this.length;
+    }
+}
