@@ -29,4 +29,8 @@ public class Animal {
     public void makeNoise(){
         System.out.println(type + " makes some kind of noise");
     }
+
+    protected void die(){
+        System.out.printf(type + " dies...");
+    }
 }

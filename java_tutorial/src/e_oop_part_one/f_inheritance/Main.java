@@ -2,23 +2,26 @@ package e_oop_part_one.f_inheritance;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("Generic Animal", "Huge", 400);
+        /*Animal animal = new Animal("Generic Animal", "Huge", 400);
         doAnimalStuff(animal, "slow");
 
-        Dog dog = new Dog();
-        doAnimalStuff(dog, "fast");
+        animal.die();*/
 
-        Dog yorkie = new Dog("Yorkie", 15);
-        doAnimalStuff(yorkie, "fast");
+        /*Dog dog = new Dog();
+        doAnimalStuff(dog, "fast");*/
 
-        Dog retriever = new Dog("Labrador", 65, "Floppy", "Swimmer");
-        doAnimalStuff(retriever, "slow");
+        /*Dog yorkie = new Dog("Yorkie", 15);
+        doAnimalStuff(yorkie, "fast");*/
+
+        /*Dog retriever = new Dog("Labrador", 65, "Floppy", "Swimmer");
+        doAnimalStuff(retriever, "slow");*/
 
         Dog wolf = new Dog("Wolf", 40);
         doAnimalStuff(wolf, "slow");
 
-        Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
-        doAnimalStuff(goldie, "fast");
+        wolf.die();
+        /*Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
+        doAnimalStuff(goldie, "fast");*/
 
     }
 

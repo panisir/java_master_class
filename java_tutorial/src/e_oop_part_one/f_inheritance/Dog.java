@@ -92,5 +92,10 @@ public class Dog extends Animal {
     private void wagTail() {
         System.out.println("Tail Wagging ");
     }
+
+    @Override
+    protected void die() {
+        super.die();
+    }
 }
 
